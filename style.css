@@ -1,45 +1,83 @@
 
     h3 {
-        color :rgb(85, 210, 210);
-        font :arial;
-        font-size: 60px;
+        color :rgb(27, 28, 28);
+        font-style:italic;
+        font-size: 30px;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+    h4 {
+      color :rgb(27, 28, 28);
+        font-style:italic;
+        font-size: 50px;
+        font-family:  'Lucida Sans Regular', 'Geneva',;
+    }
+    p{
+      font-style:italic;
+      font-size: 30px;
+      padding-bottom: 10px;
+    }
+    .logo {
+      display:flex;
+      flex-direction: row-reverse;
+      font-display:2px;
+      padding-top:1px;
+      height: 200px;
     }
  body {
-    background-color:rgb(15, 17, 17);
+  background-color: hsl(48, 22%, 61%);
  }
  .flex-container {
     display: flex;
-    background-color: rgb(58, 226, 229);
+    background-color: hsl(49, 35%, 63%);
     flex-wrap: wrap;
-    border-radius: 20px;
+    height: 60px;
+    width:1600px ;
+    border-color: hsl(49, 58%, 74%);
+    border-radius: none;
+    padding-right: 30px;
   }
    .flex-container > div {
-    background-color: rgb(58, 226, 229);
+    background-color: hsl(49, 35%, 63%);
     margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    height: 20px;
+    padding:10px;
+    font-size: 20px;
     width: 200px;
     line-height: 25px;
+    text-align: center;
   }
-  .header {
-    width: 300px;
-    height: 100px;
-    background-color: red;
+  .display-content {
+    width: 200px;
+    height: 150px;
     position: relative;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     border-radius: 10px;
-    text-wrap: 2px;
-    text-decoration:none;
+    text-wrap:2px ;
+    text-decoration:double;
     font-style:oblique;
+    text-align: center;
   }
   
   @keyframes example {
-    0%   {background-color:rgb(207, 29, 207); left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:rgb(193, 28, 138); left:0px; top:0px;}
+    0%   {background-color:rgb(207, 186, 128); left:0px; top:0px;}
+    25%  {background-color:rgb(230, 224, 179); left:200px; top:0px;}
+    50%  {background-color:rgb(184, 184, 141); left:200px; top:200px;}
+    75%  {background-color:rgb(208, 201, 160); left:0px; top:200px;}
+    100% {background-color:rgb(207, 186, 128); left:0px; top:0px;}
   }
+  
+  .flex-container2> div {
+    
+    display:flex;
+   
+  }
+  .image {
+    flex:1;
+  }
+  .content {
+    flex: 2;
+  padding: 100px;
+}
+  
