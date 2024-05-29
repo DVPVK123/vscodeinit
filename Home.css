@@ -1,9 +1,22 @@
 body {
-    background-color: rgb(12, 9, 5);
+    background-color: rgb(3, 2, 1);
 }
-.About-us {
+.text {
     font-size:x-large;
-    /* padding-bottom: ; */
     text-decoration-color: antiquewhite;
-    color: azure;
+    flex-direction:row-reverse;
+    color: rgb(119, 199, 195);
+    font-style: italic;
 }
+.flex-container  {
+    display: flex;
+
+}
+.h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+  
+    
+    
+
+
